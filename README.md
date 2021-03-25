@@ -15,7 +15,7 @@ Banking is a personalized service-oriented industry that provides services accor
 #Precondition : Data Analyst has access to run the application.                 
 
 #Description: This use case allows analyst to predict the potential customers for subscription of term deposit.
-Use case begins with user uploading the csv data file as input for the application. 
+Use case begins with user entering path to csv data file as input for the application. 
 The application builds classification model that predicts the list of potential customers. 
 List of potential customers for subscription of term deposit is generated for future campaign usage. 
 
