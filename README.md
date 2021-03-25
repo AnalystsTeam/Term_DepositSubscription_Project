@@ -30,11 +30,6 @@ transaction history, the bank will be able to predict customer saving behaviors 
  pdays : number of days that passed by after the client was last contacted from a previous campaign
  previous : number of contacts performed before this campaign and for this client
  poutcome : outcome of the previous marketing campaign
-
-
-## Target
-***
-
  y : has the client subscribed a term deposit?
 
 
