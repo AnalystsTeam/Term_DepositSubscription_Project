@@ -50,7 +50,7 @@ List of potential customers for subscription of term deposit is generated for fu
  
  duration : last contact duration, in seconds (numeric)
  
- campaign : number of contacts performed during this campaign and for this client (numeric, includes last contact)
+ campaign : number of contacts performed during this campaign and for this client (numeric)
  
  pdays : number of days that passed by after the client was last contacted from a previous campaign(numeric) 
  
