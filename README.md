@@ -1,17 +1,12 @@
-# Term_DepositSubscription_Project
+### Term_DepositSubscription_Project
 
 ## Project Description
 ***
 
-Banking is a personalized service-oriented industry that provides services according to the customers’ needs.In our project we are focusing on specific banking service – term deposits.
-Portuguese bank conducted a marketing campaign using telemarkrting.Contact of the client was required, to access if the bank termdeposit would be subscribed  or not subscribed. To make the 
-upcoming marketing campaign more effectve the Portuguese bank wants to identify which type of customers is more likely to make term deposits and focus marketing efforts on those customers.
-This will not only allow the bank to secure deposits more effectively but also increase customer satisfaction by reducing undesirable advertisements for certain customers. 
-The objective of our application is to identify the potential customers that subscribe for term deposits. Our application analyses customer features, such as demographics and 
-transaction history, the bank will be able to predict customer saving behaviors and identify which type of customers is more likely to make term deposits.
-  
+Banking is a personalized service-oriented industry that provides services according to the customers’ needs. In our project we are focusing on specific banking service – term deposits.Portuguese bank conducted a marketing campaign using 'telemarketing'. Contact of the client was required, to access if the bank term deposit would be subscribed or not subscribed. To make the upcoming marketing campaign more effective the Portuguese bank wants to identify which type of customers is more likely to make term deposits and focus marketing efforts on those customers.This will not only allow the bank to secure deposits more effectively but also increase customer satisfaction by reducing undesirable advertisements for non-potential customers. The objective of our application is to identify the potential customers that subscribe for term deposits. Our application analyses customer features, such as demographics and transaction history, the bank will be able to predict customer saving behaviors and identify which type of customers is more likely to make term deposits.
   
-## Usecase Description
+  
+## Use case Description
 ***
 # Usecase name : Term deposit subscription prediction
 
@@ -19,12 +14,12 @@ transaction history, the bank will be able to predict customer saving behaviors 
 
 #Precondition : Data Analyst has access to run the application.                 
 
-#Description : This usecase allows analyst to predict the potential customers for subscription of term deposit.
-Usecase begins with user uploading the csv data file as input for the application. 
+#Description: This use case allows analyst to predict the potential customers for subscription of term deposit.
+Use case begins with user uploading the csv data file as input for the application. 
 The application builds classification model that predicts the list of potential customers. 
 List of potential customers for subscription of term deposit is generated for future campaign usage. 
 
-#Postcondition : Analyst gets list of potential customers for subscription of term deposit
+#Postcondition: Analyst gets list of potential customers for subscription of term deposit
 
 
 ## Useful features from the data & the descriptions of the features
@@ -56,6 +51,3 @@ The data file used in the project is bank-full.csv
 
 https://www.kaggle.com/yufengsui/portuguese-bank-marketing-data-set?select=bank-full.csv
 https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
-
-
-
