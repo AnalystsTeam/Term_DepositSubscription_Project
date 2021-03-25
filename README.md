@@ -26,12 +26,19 @@ List of potential customers for subscription of term deposit is generated for fu
 ***
 
  age : customer age
+ 
  job : type of job
+ 
  marital : marital status
+ 
  education : education level
+ 
  default : has credit in default?
+ 
  balance : balance level
+ 
  housing : has housing loan?
+ 
  loan : has personal loan?
  contact : contact communication type
  day : last contact day of the week
