@@ -40,14 +40,23 @@ List of potential customers for subscription of term deposit is generated for fu
  housing : has housing loan?
  
  loan : has personal loan?
+ 
  contact : contact communication type
+ 
  day : last contact day of the week
+ 
  month : last contact month of year
+ 
  duration : last contact duration, in seconds
+ 
  campaign : number of contacts performed during this campaign and for this client
+ 
  pdays : number of days that passed by after the client was last contacted from a previous campaign
+ 
  previous : number of contacts performed before this campaign and for this client
+ 
  poutcome : outcome of the previous marketing campaign
+ 
  y : has the client subscribed a term deposit?
 
 
