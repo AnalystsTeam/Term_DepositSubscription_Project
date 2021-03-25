@@ -65,6 +65,6 @@ List of potential customers for subscription of term deposit is generated for fu
 ***
 
 The data file used in the project is bank-full.csv
-
+https://data.world/uci/bank-marketing
 https://www.kaggle.com/yufengsui/portuguese-bank-marketing-data-set?select=bank-full.csv
 https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
