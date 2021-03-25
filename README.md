@@ -25,39 +25,40 @@ List of potential customers for subscription of term deposit is generated for fu
 ## Useful features from the data & the descriptions of the features
 ***
 
- age : customer age
+ age : customer age (numeric)
  
- job : type of job
+ job : type of job (type of job (categorical: "admin.","unknown","unemployed","management","housemaid","entrepreneur","student",
+                                       "blue-collar","self-employed","retired","technician","services") 
  
- marital : marital status
+ marital : marital status (categorical: "married","divorced","single"; note: "divorced" means divorced or widowed)
  
- education : education level
+ education : education level (categorical: "unknown","secondary","primary","tertiary")
  
- default : has credit in default?
+ default : has credit in default? (binary: "yes","no")
  
- balance : balance level
+ balance : balance level (numeric) 
  
- housing : has housing loan?
+ housing : has housing loan?(binary: "yes","no") 
  
- loan : has personal loan?
+ loan : has personal loan? (binary: "yes","no")
  
- contact : contact communication type
+ contact : contact communication type  (categorical: "unknown","telephone","cellular") 
  
- day : last contact day of the week
+ day : last contact day of the week (numeric)
  
- month : last contact month of year
+ month : last contact month of year (categorical: "jan", "feb", "mar", ..., "nov", "dec")
  
- duration : last contact duration, in seconds
+ duration : last contact duration, in seconds (numeric)
  
- campaign : number of contacts performed during this campaign and for this client
+ campaign : number of contacts performed during this campaign and for this client (numeric, includes last contact)
  
- pdays : number of days that passed by after the client was last contacted from a previous campaign
+ pdays : number of days that passed by after the client was last contacted from a previous campaign(numeric) 
  
- previous : number of contacts performed before this campaign and for this client
+ previous : number of contacts performed before this campaign and for this client (numeric)
  
- poutcome : outcome of the previous marketing campaign
+ poutcome : outcome of the previous marketing campaign (categorical: "unknown","other","failure","success")
  
- y : has the client subscribed a term deposit?
+ y : has the client subscribed a term deposit? (binary: "yes","no")
 
 
 ## Data Source
