@@ -10,6 +10,22 @@ This will not only allow the bank to secure deposits more effectively but also i
 The objective of our application is to identify the potential customers that subscribe for term deposits. Our application analyses customer features, such as demographics and 
 transaction history, the bank will be able to predict customer saving behaviors and identify which type of customers is more likely to make term deposits.
   
+  
+## Usecase Description
+***
+# Usecase name : Term deposit subscription prediction
+
+#Actors : Bank Data Analyst(s)
+
+#Precondition : Data Analyst has access to run the application.                 
+
+#Description : This usecase allows analyst to predict the potential customers for subscription of term deposit.
+Usecase begins with user uploading the csv data file as input for the application. 
+The application builds classification model that predicts the list of potential customers. 
+List of potential customers for subscription of term deposit is generated for future campaign usage. 
+
+#Postcondition : Analyst gets list of potential customers for subscription of term deposit
+
 
 ## Useful features from the data & the descriptions of the features
 ***
@@ -36,23 +52,10 @@ transaction history, the bank will be able to predict customer saving behaviors 
 ## Data Source
 ***
 
+The data file used in the project is bank-full.csv
+
 https://www.kaggle.com/yufengsui/portuguese-bank-marketing-data-set?select=bank-full.csv
 https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
 
 
-## Usecase Description
-***
-# Usecase name : Term deposit subscription prediction
 
-#Actors : Bank Data Analyst(s)
-
-#Precondition : Data Analyst has access to run the application. 
-                CVS Data file uploaded has similar data format as our datafile
-
-#Description : This usecase allows analyst to predict the potential customers for subscription of term deposit.
-Usecase begins with user uploading the csv data file as input for the application. 
-The appliaction builds clasification model that predicts the list of potential customers. 
-List of potential customers for subscription of term deposit is generated for future canpaign usage. 
-
-
-#Postcondition : Analyst gets list of potential customers for subscription of term deposit
