@@ -59,6 +59,8 @@ List of potential customers for subscription of term deposit is generated for fu
  poutcome : outcome of the previous marketing campaign (categorical: "unknown","other","failure","success")
  
  y : has the client subscribed a term deposit? (binary: "yes","no")
+ 
+ Features of our model are not highly correlated with each other so we have included all the variables in our model except day and month which wasnt useful enough to be included.
 
 
 ## Data Source
