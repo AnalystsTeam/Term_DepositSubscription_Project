@@ -60,7 +60,7 @@ List of potential customers for subscription of term deposit is generated for fu
  
  y : has the client subscribed a term deposit? (binary: "yes","no")
  
- Features of our model are not highly correlated with each other so we have included all the variables in our model except day and month which wasnt useful enough to be included.
+ Features of our model are not highly correlated with each other so we have included all the variables in our model except day and month which wasnt useful enough to be included in our processing.
 
 
 ## Data Source
