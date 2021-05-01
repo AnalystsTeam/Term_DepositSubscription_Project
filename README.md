@@ -77,7 +77,7 @@ https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
  
 
 ##Model Description 
-
+***
 Purpose: Predict the bank customers who might subscribe for term deposits. 
 
 The problem we are trying to solve is predicting likeliness of term deposit subscription. Hence, we are dealing with labeled data. This would imply that we are dealing with Supervised Learning. In addition, we are interested in predicting a labeled variable. So, we need predictive machine learning algorithm. Our labeled target variable is categorical (subscription: Yes or No). It requires the target variable to be continuous, numeric variable and the target variable has only two categories. As binary classifier would be suitable for this problem Logistic-Regression and Random Forests algorithms are used for model building. 
@@ -90,7 +90,7 @@ Logistic regression model and random forest model were built on training data. T
 
  
 ##Model Evaluation 
-
+***
 Evaluation metrics were calculated for both models and AOC (Area under ROC) value was generated from BinaryClassificationEvaluator. 
 
 accuracy = (TrueNegative + TruePositive) / (TrueNegative + TruePositive + FalseNegative + FalsePositive) 
@@ -130,5 +130,5 @@ Area Under ROC : 0.7898717840938961
 
 
 ##Conclusion 
-
+***
 According to the metrics, performance of Random Forest model is better than that of Logistic Regression model. The best model for this use case is Random Forest model. The Random Forest model takes the client data from bank and generates list with predicted subscription column. Marketing team designs next campaign based on this prediction from our model. 
