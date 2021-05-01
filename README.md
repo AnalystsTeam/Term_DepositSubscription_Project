@@ -76,7 +76,7 @@ https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
 
  
 
-##Model Description 
+## Model Description 
 ***
 Purpose: Predict the bank customers who might subscribe for term deposits. 
 
@@ -89,7 +89,7 @@ The dataset does not contain any null or missing values. But there is a huge per
 Logistic regression model and random forest model were built on training data. Test data was used for evaluation of the models. Prediction of subscription acceptance was made by both models using test data. 
 
  
-##Model Evaluation 
+## Model Evaluation 
 ***
 Evaluation metrics were calculated for both models and AOC (Area under ROC) value was generated from BinaryClassificationEvaluator. 
 
@@ -129,6 +129,6 @@ Precision: 0.774
 Area Under ROC : 0.7898717840938961 
 
 
-##Conclusion 
+## Conclusion 
 ***
 According to the metrics, performance of Random Forest model is better than that of Logistic Regression model. The best model for this use case is Random Forest model. The Random Forest model takes the client data from bank and generates list with predicted subscription column. Marketing team designs next campaign based on this prediction from our model. 
